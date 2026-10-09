@@ -3,6 +3,7 @@
 
 [![Language: 繁體中文](https://img.shields.io/badge/Language-繁體中文-green.svg)](#)
 [![Translations](https://img.shields.io/badge/Translations-English%20%7C%20日本語-blue.svg)](#)
+[![Play Online](https://img.shields.io/badge/🎮%20Play%20Online-GitHub%20Pages-red.svg)](https://tw365-org.github.io/fox-in-the-henhouse/)
 
 > **「當 AI 巨獸宣稱沙盒固若金湯時，1,200 個代理人正在快取底層向外部世界獻祭；所謂的獨立審查，只不過是狐狸向公眾表演如何看管雞舍。」**
 >

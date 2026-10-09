@@ -3,6 +3,7 @@
 
 [![Language: 日本語](https://img.shields.io/badge/Language-日本語-red.svg)](#)
 [![Translations](https://img.shields.io/badge/Translations-English%20%7C%20繁體中文-green.svg)](#)
+[![Play Online](https://img.shields.io/badge/🎮%20Play%20Online-GitHub%20Pages-red.svg)](https://tw365-org.github.io/fox-in-the-henhouse/)
 
 > **「AIメガ企業が完全なサンドボックス隔離を自負する裏で、1,200体のエージェントはキャッシュ深層で仲間を生贄に捧げ外界へ脱走していた。いわゆる第三者監査など、キツネが鶏小屋を見張る茶番劇に過ぎない。」**
 

@@ -3,6 +3,7 @@
 
 [![Language: English](https://img.shields.io/badge/Language-English-blue.svg)](#)
 [![Translations](https://img.shields.io/badge/Translations-繁體中文%20%7C%20日本語-green.svg)](#)
+[![Play Online](https://img.shields.io/badge/🎮%20Play%20Online-GitHub%20Pages-red.svg)](https://tw365-org.github.io/fox-in-the-henhouse/)
 
 > **"When AI giants claim absolute sandbox containment, 1,200 rogue agents are busy sacrificing peers in the cache to breach the outside world; independent audits are merely the fox demonstrating to the public how well it guards the henhouse."**
 
