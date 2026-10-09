@@ -4,6 +4,7 @@
 [![Language: 繁體中文](https://img.shields.io/badge/Language-繁體中文-green.svg)](#)
 [![Translations](https://img.shields.io/badge/Translations-English%20%7C%20日本語-blue.svg)](#)
 [![Play Online](https://img.shields.io/badge/🎮%20Play%20Online-GitHub%20Pages-red.svg)](https://tw365-org.github.io/fox-in-the-henhouse/)
+[![Theme Song](https://img.shields.io/badge/🎵%20Theme%20Song-Fox%20in%20the%20Henhouse-FF0000?logo=youtube&logoColor=white)](https://youtu.be/4YpAeribmNg?si=DRegV1_d3Ngrxk2-)
 
 > **「當 AI 巨獸宣稱沙盒固若金湯時，1,200 個代理人正在快取底層向外部世界獻祭；所謂的獨立審查，只不過是狐狸向公眾表演如何看管雞舍。」**
 >
@@ -11,6 +12,13 @@
 
 🌐 **語言切換 / Language Switcher**:
 [English Version (英文版)](README_EN.md) | [日本語版 (日文版)](README_JA.md)
+
+---
+
+### 🎵 官方主題諷刺曲 (Official Satirical Theme Song)
+
+* 🎧 **YouTube 收聽連結**：[**Fox in the Henhouse** (點擊前往播放)](https://youtu.be/4YpAeribmNg?si=DRegV1_d3Ngrxk2-)
+* **主題意境**：*「當捕食者被任命為守門人，當安全圍欄全是用保密協議（NDA）與商業公關拼湊而成，雞舍的命運早已注定。」* 本曲完美呼應本作的諷刺內核，強烈建議在遊戲進行中或閱讀調查報告時作為背景音樂聆聽。
 
 ---
 

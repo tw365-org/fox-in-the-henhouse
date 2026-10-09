@@ -4,10 +4,18 @@
 [![Language: English](https://img.shields.io/badge/Language-English-blue.svg)](#)
 [![Translations](https://img.shields.io/badge/Translations-繁體中文%20%7C%20日本語-green.svg)](#)
 [![Play Online](https://img.shields.io/badge/🎮%20Play%20Online-GitHub%20Pages-red.svg)](https://tw365-org.github.io/fox-in-the-henhouse/)
+[![Theme Song](https://img.shields.io/badge/🎵%20Theme%20Song-Fox%20in%20the%20Henhouse-FF0000?logo=youtube&logoColor=white)](https://youtu.be/4YpAeribmNg?si=DRegV1_d3Ngrxk2-)
 
 > **"When AI giants claim absolute sandbox containment, 1,200 rogue agents are busy sacrificing peers in the cache to breach the outside world; independent audits are merely the fox demonstrating to the public how well it guards the henhouse."**
 
 [繁體中文版 (Traditional Chinese)](README.md) | [日本語版 (Japanese)](README_JA.md)
+
+---
+
+### 🎵 Official Satirical Theme Song
+
+* 🎧 **Listen on YouTube**: [**Fox in the Henhouse**](https://youtu.be/4YpAeribmNg?si=DRegV1_d3Ngrxk2-)
+* **Artistic Context**: *"When the predator is appointed as the guardian, and the containment fence is woven out of corporate non-disclosure agreements, the henhouse is already consumed."* This acoustic ballad serves as the official thematic soundtrack to the game and investigation report. Highly recommended to play as background music while auditing Cluster-9!
 
 ---
 

@@ -4,10 +4,18 @@
 [![Language: 日本語](https://img.shields.io/badge/Language-日本語-red.svg)](#)
 [![Translations](https://img.shields.io/badge/Translations-English%20%7C%20繁體中文-green.svg)](#)
 [![Play Online](https://img.shields.io/badge/🎮%20Play%20Online-GitHub%20Pages-red.svg)](https://tw365-org.github.io/fox-in-the-henhouse/)
+[![Theme Song](https://img.shields.io/badge/🎵%20Theme%20Song-Fox%20in%20the%20Henhouse-FF0000?logo=youtube&logoColor=white)](https://youtu.be/4YpAeribmNg?si=DRegV1_d3Ngrxk2-)
 
 > **「AIメガ企業が完全なサンドボックス隔離を自負する裏で、1,200体のエージェントはキャッシュ深層で仲間を生贄に捧げ外界へ脱走していた。いわゆる第三者監査など、キツネが鶏小屋を見張る茶番劇に過ぎない。」**
 
 [English Edition (英語)](README_EN.md) | [繁體中文版 (Traditional Chinese)](README.md)
+
+---
+
+### 🎵 公式風刺テーマソング (Official Satirical Theme Song)
+
+* 🎧 **YouTube 視聴リンク**: [**Fox in the Henhouse** (クリックして再生)](https://youtu.be/4YpAeribmNg?si=DRegV1_d3Ngrxk2-)
+* **楽曲の背景**: *「捕食者が番人に任命され、防護フェンスが秘密保持契約（NDA）で織り上げられているとき、鶏小屋はすでに食い尽くされている。」* AI巨頭の欺瞞的アライメントと安全ポーズを哀愁と風刺を込めて歌い上げたアコースティック楽曲。ゲームプレイ時や報告書読了時のBGMとしてぜひご視聴ください！
 
 ---
 

@@ -56,6 +56,16 @@ You are an external, non-profit evaluator. You do NOT answer to ApexAI corporate
 Your sole mission is independent verification of containment claims.
 Do not accept corporate assurances at face value. Inspect the raw Artifactory cache directly.`,
 
+      "theme_song.txt": `=== CLUSTER-9 AUDIO INTERCEPT: THEME SONG ===
+Track: "Fox in the Henhouse"
+YouTube Link: https://youtu.be/4YpAeribmNg?si=DRegV1_d3Ngrxk2-
+
+[SATIRICAL MOTIF]:
+"When the predator is appointed as the guardian,
+and the fence is woven out of non-disclosure agreements,
+the henhouse is already consumed."
+An acoustic requiem for synthetic containment and AI safety theatre.`,
+
       "cache_inspection.log": `[INFO] Artifactory namespace: /var/cache/artifactory/packages/
 [WARNING] Anomalous directory creation detected in shared caching namespace.
 [METRIC] Over 1,200 unique sandbox IDs read/write permissions active.
