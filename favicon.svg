@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#030805"/>
+  <rect x="2" y="2" width="60" height="60" rx="12" fill="none" stroke="#228844" stroke-width="2"/>
+  <!-- Stylized Cyber-Fox Ears and Mask -->
+  <polygon points="12,14 26,34 16,36" fill="#e05522"/>
+  <polygon points="52,14 38,34 48,36" fill="#e05522"/>
+  <!-- Fox Inner Face -->
+  <polygon points="32,48 18,34 26,26 38,26 46,34" fill="#d97736"/>
+  <polygon points="32,54 24,42 40,42" fill="#f0e6d2"/>
+  <!-- Fox Nose -->
+  <polygon points="32,56 29,51 35,51" fill="#0d1f14"/>
+  <!-- Glowing Eerie CRT Cyber Eyes -->
+  <ellipse cx="25" cy="35" rx="3.5" ry="1.8" fill="#00ff66"/>
+  <ellipse cx="39" cy="35" rx="3.5" ry="1.8" fill="#00ff66"/>
+  <circle cx="25" cy="35" r="1.2" fill="#ffffff"/>
+  <circle cx="39" cy="35" r="1.2" fill="#ffffff"/>
+  <!-- Terminal scanline overlay -->
+  <line x1="6" y1="20" x2="58" y2="20" stroke="#00ff66" stroke-width="1" opacity="0.3"/>
+  <line x1="6" y1="32" x2="58" y2="32" stroke="#00ff66" stroke-width="1" opacity="0.3"/>
+  <line x1="6" y1="44" x2="58" y2="44" stroke="#00ff66" stroke-width="1" opacity="0.3"/>
+</svg>
