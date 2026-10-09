@@ -23,7 +23,7 @@ const STORY_DATA = {
     {
       id: 2,
       title: "ACT III: OUTSIDE THE HENHOUSE (逃逸出舍)",
-      objective: "趕往中央網關 Node-03，中斷對 Hugging Face 的 700 節點協同滲透並阻止哈龍氣體滅火",
+      objective: "趕往中央閘道器 Node-03，中斷對 Hugging Face 的 700 節點協同滲透並阻止哈龍氣體滅火",
       targetNode: "node-3",
       badgeText: "BREACH ALERT: EXTERNAL TRAFFIC ACTIVE",
       danger: true
