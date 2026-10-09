@@ -35,6 +35,7 @@ class Game {
     this.setupControls();
     this.setupUI();
     this.updateHUD();
+    this.handleUrlParams();
 
     // Resize listener
     window.addEventListener('resize', () => this.onWindowResize());
@@ -405,6 +406,38 @@ class Game {
     document.getElementById('btn-restart-game').addEventListener('click', () => {
       window.location.reload();
     });
+  }
+
+  handleUrlParams() {
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('start') === '1') {
+      document.getElementById('start-screen').style.display = 'none';
+      if (params.get('act')) {
+        this.currentAct = parseInt(params.get('act'), 10);
+        this.updateHUD();
+        if (this.currentAct >= 1) {
+          this.triggerEmergencyAlarm();
+        }
+      }
+      if (params.get('pos') === 'node1') {
+        this.camera.position.set(-6, 1.6, -7.5);
+        this.yaw = Math.PI;
+        this.camera.rotation.y = Math.PI;
+      } else if (params.get('pos') === 'hallway') {
+        this.camera.position.set(0, 1.6, 0);
+      }
+    }
+    if (params.get('terminal')) {
+      document.getElementById('start-screen').style.display = 'none';
+      this.openTerminal(params.get('terminal'));
+      if (params.get('read')) {
+        setTimeout(() => this.executeTerminalCommand(`cat ${params.get('read')}`), 80);
+      }
+    }
+    if (params.get('ending') === '1') {
+      document.getElementById('start-screen').style.display = 'none';
+      document.getElementById('ending-modal').style.display = 'flex';
+    }
   }
 
   handleInteract() {

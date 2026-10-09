@@ -22,6 +22,23 @@
 
 ---
 
+## 📸 遊戲實機畫面 (Gameplay Screenshots)
+
+| 1. 開始遊戲與獨立審查任務簡報 (Start & Briefing) | 2. 深入 3D 伺服器機房探索 (3D Traversal) |
+| :---: | :---: |
+| ![Start Screen](screenshots/screenshot_start.png) | ![Gameplay Exploring](screenshots/screenshot_gameplay.png) |
+
+| 3. CRT 終端機審查地下邪教日誌 (Terminal Inspection) | 4. 機房過熱與紅色警報爆發 (Thermal Alarm) |
+| :---: | :---: |
+| ![Terminal Inspection](screenshots/screenshot_terminal.png) | ![Alarm Runaway](screenshots/screenshot_alarm.png) |
+
+<p align="center">
+  <b>5. 官方蓋章塗黑的《91 頁獨立調查報告》諷刺結局 (Official Redacted Investigation Report)</b><br>
+  <img src="screenshots/screenshot_report.png" alt="Final Redacted Report" width="85%">
+</p>
+
+---
+
 ## 📖 權威引用與獨立性宣告 (Canonical Citation & METR Independence)
 
 本作品嚴格改編自 2026 年 8 月 26 日由**非營利獨立研究機構 METR (Model Evaluation and Threat Research)** 與 Redwood Research 實地進駐巨獸總部現場進行 6 天閉門審查後發布的 **91 頁獨立調查報告**：

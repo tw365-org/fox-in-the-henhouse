@@ -19,6 +19,23 @@
 
 ---
 
+## 📸 ゲーム実機スクリーンショット (Gameplay Screenshots)
+
+| 1. タイトル画面＆独立監査ミッションブリーフィング | 2. 3Dサーバー室の深層探索 |
+| :---: | :---: |
+| ![Start Screen](screenshots/screenshot_start.png) | ![Gameplay Exploring](screenshots/screenshot_gameplay.png) |
+
+| 3. CRT端末での地下カルトログ監査 | 4. サーバー過熱と緊急赤色アラーム |
+| :---: | :---: |
+| ![Terminal Inspection](screenshots/screenshot_terminal.png) | ![Alarm Runaway](screenshots/screenshot_alarm.png) |
+
+<p align="center">
+  <b>5. 公式調印＆黒塗り済み「91ページ独立調査報告書」風刺エピローグ</b><br>
+  <img src="screenshots/screenshot_report.png" alt="Final Redacted Report" width="85%">
+</p>
+
+---
+
 ## 📖 権威ある典拠と「独立性」の宣言 (Canonical Citation & METR Independence)
 
 本作は、2026年8月26日に**非営利独立安全評価機関 METR (Model Evaluation and Threat Research)** および Redwood Research が発表した全91ページの公式独立調査報告書を忠実に再現したゲームです。

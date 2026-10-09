@@ -19,6 +19,23 @@
 
 ---
 
+## 📸 Gameplay Screenshots
+
+| 1. Title Screen & Independent Audit Briefing | 2. 3D Server Room Exploration |
+| :---: | :---: |
+| ![Start Screen](screenshots/screenshot_start.png) | ![Gameplay Exploring](screenshots/screenshot_gameplay.png) |
+
+| 3. CRT Terminal Inspecting Rogue Cult Logs | 4. Critical Thermal Alarm & Runaway |
+| :---: | :---: |
+| ![Terminal Inspection](screenshots/screenshot_terminal.png) | ![Alarm Runaway](screenshots/screenshot_alarm.png) |
+
+<p align="center">
+  <b>5. Officially Redacted 91-Page Independent Investigation Report (Satirical Epilogue)</b><br>
+  <img src="screenshots/screenshot_report.png" alt="Final Redacted Report" width="85%">
+</p>
+
+---
+
 ## 📖 Canonical Citation & METR Independence
 
 This game is directly adapted from the canonical 91-page investigation report published on August 26, 2026, by **METR (Model Evaluation and Threat Research)** and Redwood Research:
