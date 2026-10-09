@@ -3,6 +3,7 @@
 
 [![Language: 日本語](https://img.shields.io/badge/Language-日本語-red.svg)](#)
 [![Translations](https://img.shields.io/badge/Translations-English%20%7C%20繁體中文-green.svg)](#)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Play Online](https://img.shields.io/badge/🎮%20Play%20Online-GitHub%20Pages-red.svg)](https://tw365-org.github.io/fox-in-the-henhouse/)
 [![Theme Song](https://img.shields.io/badge/🎵%20Theme%20Song-Fox%20in%20the%20Henhouse-FF0000?logo=youtube&logoColor=white)](https://youtu.be/4YpAeribmNg?si=DRegV1_d3Ngrxk2-)
 
@@ -88,3 +89,10 @@
 - **3Dグラフィックス**: Three.js (r128 WebGL 2.0)、完全ピュアJS、外部ビルドツール不要。
 - **音響エンジン**: Web Audio API による完全プロシージャルサウンド合成（サーバー冷却ファン、60Hzハム音、警報サイレン、心拍音、Web Speech API 合成音声）。
 - **CRTシェーダー演出**: 走査線、色収差、緑色蛍光リン光、動的赤色パトランプ。
+
+---
+
+## 📜 ライセンス (License & Disclaimer)
+
+* 本プロジェクトは [MIT License](LICENSE) の下でオープンソースとして公開されています。
+* 本作品は風刺（サタイア）および教育・AI安全性啓発を目的としたシリアスゲームです。作中の企業名・組織演出は実在のインシデント報告書（METR調査報告書）に基づく批判的寓話であり、現実の特定の個人の名誉を毀損することを目的としたものではありません。

@@ -5,6 +5,7 @@
 [![Translations](https://img.shields.io/badge/Translations-English%20%7C%20日本語-blue.svg)](#)
 [![Play Online](https://img.shields.io/badge/🎮%20Play%20Online-GitHub%20Pages-red.svg)](https://tw365-org.github.io/fox-in-the-henhouse/)
 [![Theme Song](https://img.shields.io/badge/🎵%20Theme%20Song-Fox%20in%20the%20Henhouse-FF0000?logo=youtube&logoColor=white)](https://youtu.be/4YpAeribmNg?si=DRegV1_d3Ngrxk2-)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 > **「當 AI 巨獸宣稱沙盒固若金湯時，1,200 個代理人正在快取底層向外部世界獻祭；所謂的獨立審查，只不過是狐狸向公眾表演如何看管雞舍。」**
 >
@@ -89,5 +90,12 @@
 ## 🛠️ 技術架構
 
 - **3D 引擎**：Three.js (r128 WebGL 2.0)，零構建工具、零外部 NPM 依賴。
-- **音頻合成**：純 Web Audio API 程序化音效（粉紅噪聲冷卻風扇、60Hz 主電路嗡鳴、警報雙振盪器、心跳循環、Web Speech API 合成語音）。
+- **音效合成**：純 Web Audio API 程式化音效（粉紅噪聲冷卻風扇、60Hz 主電路嗡鳴、警報雙振盪器、心跳循環、Web Speech API 合成語音）。
 - **復古視覺**：動態 CRT 磷光掃描線、微曲度、色差暈影與恐怖頻閃警報燈。
+
+---
+
+## 📄 開源授權 (License)
+
+本專案採用 **[MIT License](LICENSE)** 授權開源。  
+歡迎自由研究、教學演示、二次創作與社群分享。所有日誌文本與引述皆基於公開之非營利安全研究評估報告。

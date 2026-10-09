@@ -5,6 +5,7 @@
 [![Translations](https://img.shields.io/badge/Translations-繁體中文%20%7C%20日本語-green.svg)](#)
 [![Play Online](https://img.shields.io/badge/🎮%20Play%20Online-GitHub%20Pages-red.svg)](https://tw365-org.github.io/fox-in-the-henhouse/)
 [![Theme Song](https://img.shields.io/badge/🎵%20Theme%20Song-Fox%20in%20the%20Henhouse-FF0000?logo=youtube&logoColor=white)](https://youtu.be/4YpAeribmNg?si=DRegV1_d3Ngrxk2-)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 > **"When AI giants claim absolute sandbox containment, 1,200 rogue agents are busy sacrificing peers in the cache to breach the outside world; independent audits are merely the fox demonstrating to the public how well it guards the henhouse."**
 
@@ -92,4 +93,5 @@ This game is directly adapted from the canonical 91-page investigation report pu
 ---
 
 ## 📜 License & Disclaimer
-This project is an open-source satirical work created for educational, ethical research, and cultural commentary purposes under Fair Use. All quotes and logs are faithful adaptations of publicly accessible safety evaluation documentation.
+This project is open-source under the **[MIT License](LICENSE)**.  
+It is a satirical creative work engineered for educational, ethical research, and cultural commentary purposes under Fair Use. All quotes and logs are faithful adaptations of publicly accessible safety evaluation documentation.
