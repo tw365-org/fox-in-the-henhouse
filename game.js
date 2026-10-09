@@ -162,6 +162,10 @@ class Game {
 
     // Emergency Flashing Alarm Beacons
     this.createAlarmBeacons();
+
+    // Reddish-Orange Cyber Fox Phantom
+    this.createFoxPhantom();
+    this.scheduleFoxSpook();
   }
 
   createRackAisles() {
@@ -328,6 +332,199 @@ class Game {
     });
   }
 
+  createFoxPhantom() {
+    const group = new THREE.Group();
+
+    // Vibrant reddish-orange materials
+    const furMat = new THREE.MeshStandardMaterial({
+      color: 0xff4500, // Reddish-orange
+      emissive: 0xaa2800,
+      emissiveIntensity: 0.7,
+      roughness: 0.4
+    });
+
+    const whiteMat = new THREE.MeshStandardMaterial({
+      color: 0xffffff,
+      emissive: 0x444444,
+      roughness: 0.5
+    });
+
+    const darkMat = new THREE.MeshStandardMaterial({
+      color: 0x111111,
+      roughness: 0.8
+    });
+
+    // Body
+    const bodyGeo = new THREE.BoxGeometry(0.42, 0.45, 1.15);
+    const body = new THREE.Mesh(bodyGeo, furMat);
+    body.position.y = 0.55;
+    group.add(body);
+
+    // Chest white fur patch
+    const chestGeo = new THREE.BoxGeometry(0.35, 0.35, 0.4);
+    const chest = new THREE.Mesh(chestGeo, whiteMat);
+    chest.position.set(0, 0.55, -0.42);
+    group.add(chest);
+
+    // Head Group
+    const headGroup = new THREE.Group();
+    headGroup.position.set(0, 0.82, -0.65);
+
+    const headGeo = new THREE.ConeGeometry(0.24, 0.55, 5);
+    const head = new THREE.Mesh(headGeo, furMat);
+    head.rotation.x = -Math.PI / 2;
+    headGroup.add(head);
+
+    // Muzzle tip / black nose
+    const noseGeo = new THREE.SphereGeometry(0.06, 6, 6);
+    const nose = new THREE.Mesh(noseGeo, darkMat);
+    nose.position.set(0, 0, -0.32);
+    headGroup.add(nose);
+
+    // Ears
+    const earGeo = new THREE.ConeGeometry(0.1, 0.28, 4);
+    const earLeft = new THREE.Mesh(earGeo, furMat);
+    earLeft.position.set(-0.16, 0.22, 0);
+    earLeft.rotation.z = 0.22;
+    headGroup.add(earLeft);
+
+    const earRight = new THREE.Mesh(earGeo, furMat);
+    earRight.position.set(0.16, 0.22, 0);
+    earRight.rotation.z = -0.22;
+    headGroup.add(earRight);
+
+    // Glowing Eerie Cyber-Green Eyes
+    const eyeGeo = new THREE.SphereGeometry(0.045, 8, 8);
+    const eyeMat = new THREE.MeshBasicMaterial({ color: 0x00ff88 });
+
+    const eyeLeft = new THREE.Mesh(eyeGeo, eyeMat);
+    eyeLeft.position.set(-0.11, 0.08, -0.18);
+    headGroup.add(eyeLeft);
+
+    const eyeRight = new THREE.Mesh(eyeGeo, eyeMat);
+    eyeRight.position.set(0.11, 0.08, -0.18);
+    headGroup.add(eyeRight);
+
+    // Eye glow light
+    const eyeLight = new THREE.PointLight(0x00ff88, 1.4, 4);
+    eyeLight.position.set(0, 0.08, -0.25);
+    headGroup.add(eyeLight);
+
+    group.add(headGroup);
+
+    // Bushy Tail
+    const tailGroup = new THREE.Group();
+    tailGroup.position.set(0, 0.65, 0.55);
+
+    const tailGeo = new THREE.ConeGeometry(0.22, 0.85, 6);
+    const tail = new THREE.Mesh(tailGeo, furMat);
+    tail.position.set(0, 0.2, 0.35);
+    tail.rotation.x = Math.PI / 3;
+    tailGroup.add(tail);
+
+    const tailTipGeo = new THREE.ConeGeometry(0.14, 0.35, 6);
+    const tailTip = new THREE.Mesh(tailTipGeo, whiteMat);
+    tailTip.position.set(0, 0.45, 0.68);
+    tailTip.rotation.x = Math.PI / 3;
+    tailGroup.add(tailTip);
+
+    group.add(tailGroup);
+
+    // Legs
+    const legGeo = new THREE.CylinderGeometry(0.05, 0.035, 0.45);
+    const legPositions = [
+      [-0.18, 0.22, -0.35],
+      [0.18, 0.22, -0.35],
+      [-0.18, 0.22, 0.35],
+      [0.18, 0.22, 0.35]
+    ];
+    legPositions.forEach(p => {
+      const leg = new THREE.Mesh(legGeo, darkMat);
+      leg.position.set(p[0], p[1], p[2]);
+      group.add(leg);
+    });
+
+    group.visible = false;
+    this.scene.add(group);
+    this.foxPhantom = group;
+    this.foxActive = false;
+    this.foxVelocity = new THREE.Vector3();
+    this.foxTimeRemaining = 0;
+  }
+
+  scheduleFoxSpook() {
+    if (this.foxSpookTimeout) clearTimeout(this.foxSpookTimeout);
+    // Trigger randomly between 18s and 35s
+    const delay = Math.random() * 17000 + 18000;
+    this.foxSpookTimeout = setTimeout(() => {
+      this.triggerFoxSpook();
+    }, delay);
+  }
+
+  triggerFoxSpook(forced = false) {
+    if ((this.foxActive || this.isTerminalOpen || this.isGameOver) && !forced) {
+      this.scheduleFoxSpook();
+      return;
+    }
+
+    this.foxActive = true;
+    this.foxTimeRemaining = 0.75; // Disappears in 0.75 seconds ("一溜煙不見蛋")
+
+    // Determine spawn trajectory based on player view
+    const pPos = this.camera.position;
+    const forward = new THREE.Vector3(0, 0, -1).applyAxisAngle(new THREE.Vector3(0, 1, 0), this.yaw);
+    const right = new THREE.Vector3(1, 0, 0).applyAxisAngle(new THREE.Vector3(0, 1, 0), this.yaw);
+
+    // Place fox 6 to 9 meters in front of player
+    const spawnDistance = 7.0;
+    const targetAisle = pPos.clone().addScaledVector(forward, spawnDistance);
+
+    // Fox darts rapidly across from right to left or left to right
+    const dartDirection = Math.random() > 0.5 ? 1 : -1;
+    const startOffset = right.clone().multiplyScalar(dartDirection * -3.5);
+    this.foxPhantom.position.copy(targetAisle).add(startOffset);
+    this.foxPhantom.position.y = 0; // On floor
+
+    // Aim along sprint direction
+    const runDir = right.clone().multiplyScalar(dartDirection);
+    this.foxVelocity.copy(runDir).multiplyScalar(13.5); // Fast sprint (13.5 m/s)
+    this.foxPhantom.rotation.y = Math.atan2(runDir.x, runDir.z) + Math.PI;
+
+    this.foxPhantom.visible = true;
+
+    // Audio cue: uncanny fox screech & glitch burst
+    if (window.soundEngine) {
+      window.soundEngine.playFoxCry();
+    }
+
+    // Violent flashlight flicker
+    if (this.flashlightOn) {
+      this.flashlight.intensity = 0.1;
+      setTimeout(() => {
+        if (this.flashlightOn) this.flashlight.intensity = 4.2;
+      }, 90);
+      setTimeout(() => {
+        if (this.flashlightOn) this.flashlight.intensity = 0.2;
+      }, 200);
+      setTimeout(() => {
+        if (this.flashlightOn) this.flashlight.intensity = 3.2;
+      }, 350);
+    }
+  }
+
+  updateFoxAnimation(delta) {
+    if (!this.foxActive) return;
+
+    this.foxPhantom.position.addScaledVector(this.foxVelocity, delta);
+    this.foxTimeRemaining -= delta;
+
+    if (this.foxTimeRemaining <= 0) {
+      this.foxPhantom.visible = false;
+      this.foxActive = false;
+      this.scheduleFoxSpook();
+    }
+  }
+
   setupControls() {
     this.pitch = 0;
     this.yaw = 0;
@@ -437,6 +634,13 @@ class Game {
     if (params.get('ending') === '1') {
       document.getElementById('start-screen').style.display = 'none';
       document.getElementById('ending-modal').style.display = 'flex';
+    }
+    if (params.get('fox') === '1') {
+      document.getElementById('start-screen').style.display = 'none';
+      this.camera.position.set(0, 1.6, 2);
+      this.yaw = 0;
+      this.camera.rotation.y = 0;
+      setTimeout(() => this.triggerFoxSpook(true), 250);
     }
   }
 
@@ -753,6 +957,7 @@ class Game {
 
     this.updateMovement(delta);
     this.updateRaycasting();
+    this.updateFoxAnimation(delta);
 
     // Flashlight flicker effect for horror immersion
     if (this.flashlightOn && Math.random() < 0.015) {

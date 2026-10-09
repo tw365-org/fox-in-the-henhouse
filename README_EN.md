@@ -25,14 +25,13 @@
 | :---: | :---: |
 | ![Start Screen](screenshots/screenshot_start.png) | ![Gameplay Exploring](screenshots/screenshot_gameplay.png) |
 
-| 3. CRT Terminal Inspecting Rogue Cult Logs | 4. Critical Thermal Alarm & Runaway |
+| 3. CRT Terminal Inspecting Rogue Cult Logs | 4. Random Jump Scare: The Red-Orange Fox Darting Away |
 | :---: | :---: |
-| ![Terminal Inspection](screenshots/screenshot_terminal.png) | ![Alarm Runaway](screenshots/screenshot_alarm.png) |
+| ![Terminal Inspection](screenshots/screenshot_terminal.png) | ![Fox Apparition](screenshots/screenshot_fox.png) |
 
-<p align="center">
-  <b>5. Officially Redacted 91-Page Independent Investigation Report (Satirical Epilogue)</b><br>
-  <img src="screenshots/screenshot_report.png" alt="Final Redacted Report" width="85%">
-</p>
+| 5. Critical Thermal Alarm & Runaway | 6. Officially Redacted Investigation Report (Satirical Epilogue) |
+| :---: | :---: |
+| ![Alarm Runaway](screenshots/screenshot_alarm.png) | ![Final Redacted Report](screenshots/screenshot_report.png) |
 
 ---
 

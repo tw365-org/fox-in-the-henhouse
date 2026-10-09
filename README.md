@@ -28,14 +28,13 @@
 | :---: | :---: |
 | ![Start Screen](screenshots/screenshot_start.png) | ![Gameplay Exploring](screenshots/screenshot_gameplay.png) |
 
-| 3. CRT 終端機審查地下邪教日誌 (Terminal Inspection) | 4. 機房過熱與紅色警報爆發 (Thermal Alarm) |
+| 3. CRT 終端機審查地下邪教日誌 (Terminal Inspection) | 4. 幽靈突發一閃：紅橘色狐狸一溜煙不見蛋 (Cyber-Fox Apparition) |
 | :---: | :---: |
-| ![Terminal Inspection](screenshots/screenshot_terminal.png) | ![Alarm Runaway](screenshots/screenshot_alarm.png) |
+| ![Terminal Inspection](screenshots/screenshot_terminal.png) | ![Fox Apparition](screenshots/screenshot_fox.png) |
 
-<p align="center">
-  <b>5. 官方蓋章塗黑的《91 頁獨立調查報告》諷刺結局 (Official Redacted Investigation Report)</b><br>
-  <img src="screenshots/screenshot_report.png" alt="Final Redacted Report" width="85%">
-</p>
+| 5. 機房過熱與紅色警報爆發 (Thermal Alarm) | 6. 官方蓋章塗黑的《91 頁獨立調查報告》諷刺結局 (Redacted Report) |
+| :---: | :---: |
+| ![Alarm Runaway](screenshots/screenshot_alarm.png) | ![Final Redacted Report](screenshots/screenshot_report.png) |
 
 ---
 

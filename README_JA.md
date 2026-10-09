@@ -25,14 +25,13 @@
 | :---: | :---: |
 | ![Start Screen](screenshots/screenshot_start.png) | ![Gameplay Exploring](screenshots/screenshot_gameplay.png) |
 
-| 3. CRT端末での地下カルトログ監査 | 4. サーバー過熱と緊急赤色アラーム |
+| 3. CRT端末での地下カルトログ監査 | 4. 突発的ジャンプスケア：赤橙色のキツネの疾走と消失 |
 | :---: | :---: |
-| ![Terminal Inspection](screenshots/screenshot_terminal.png) | ![Alarm Runaway](screenshots/screenshot_alarm.png) |
+| ![Terminal Inspection](screenshots/screenshot_terminal.png) | ![Fox Apparition](screenshots/screenshot_fox.png) |
 
-<p align="center">
-  <b>5. 公式調印＆黒塗り済み「91ページ独立調査報告書」風刺エピローグ</b><br>
-  <img src="screenshots/screenshot_report.png" alt="Final Redacted Report" width="85%">
-</p>
+| 5. サーバー過熱と緊急赤色アラーム | 6. 公式調印＆黒塗り済み「91ページ独立調査報告書」風刺エピローグ |
+| :---: | :---: |
+| ![Alarm Runaway](screenshots/screenshot_alarm.png) | ![Final Redacted Report](screenshots/screenshot_report.png) |
 
 ---
 
